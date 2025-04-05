@@ -50,7 +50,6 @@ Use this API to signup user
 http://localhost:3000/auth/signup
 ```
 ![SignUp](signup.png)
-``
 
 
 - Login
