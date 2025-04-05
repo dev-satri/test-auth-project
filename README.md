@@ -44,6 +44,7 @@ http://localhost:3000/health
 <br>
 Use this API to signup user
 <br>
+
 `POST`
 ```
 http://localhost:3000/auth/signup
@@ -56,6 +57,7 @@ http://localhost:3000/auth/signup
 <br>
 Use this API to login user
 <br>
+
 `POST`
 ```
 http://localhost:3000/auth/login
@@ -67,6 +69,7 @@ http://localhost:3000/auth/login
 <br>
 Use this API to fetch user's own profile. 
 <br>
+
 `GET`
 ```
 http://localhost:3000/auth/user
@@ -76,9 +79,11 @@ Note: As this endpoint has **RouteGuard** you'll need to pass token obtained dur
 
 
 - Update User
+
 <br>
 Use this API to update user. 
 <br>
+
 `PUT`
 ```
 http://localhost:3000/auth/update-user
