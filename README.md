@@ -34,14 +34,14 @@ http://localhost:3000/api/
 
 # APIs and Payload
 ## Health
-This is a default API to ensure our project is functional
+> This is a default API to ensure our project is functional
 ```
 http://localhost:3000/health
 ```
 
 ## Auth
 - SignUp
-Use this API to signup user
+> Use this API to signup user
 <br>
 
 `POST`
@@ -52,7 +52,7 @@ http://localhost:3000/auth/signup
 
 
 - Login
-Use this API to login user
+> Use this API to login user
 <br>
 
 `POST`
@@ -63,7 +63,7 @@ http://localhost:3000/auth/login
 
 
 - User
-Use this API to fetch user's own profile. 
+> Use this API to fetch user's own profile. 
 <br>
 
 `GET`
@@ -76,7 +76,7 @@ Note: As this endpoint has **RouteGuard** you'll need to pass token obtained dur
 
 
 - Update User
-Use this API to update user. 
+> Use this API to update user. 
 <br>
 
 `PUT`
@@ -88,21 +88,21 @@ http://localhost:3000/auth/update-user
 
 ## Product
 - Add Product
-Use this API to add product
+> Use this API to add product
 ```
 http://localhost:3000/product/add-product
 ```
 ![add-product](add-product.png)
 
 - Get All Product
-Use this API to fetch all available products
+> Use this API to fetch all available products
 ```
 http://localhost:3000/product/all-product
 ```
 ![all-product](all-product.png)
 
 - Get Product (Single)
-Use this API to fetch individual product
+> Use this API to fetch individual product
 <br>
 
 `GET`
@@ -113,7 +113,7 @@ http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
 
 
 - Update Product (Single)
-Use this API to update individual product
+> Use this API to update individual product
 <br>
 
 `PUT`
@@ -125,7 +125,7 @@ http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
 
 
 - Delete Product (Single)
-Use this API to delete individual product
+> Use this API to delete individual product
 <br>
 
 `DELETE`
