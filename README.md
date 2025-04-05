@@ -63,6 +63,7 @@ http://localhost:3000/auth/login
 ![Login](login.png)
 
 
+## User
 - User [GUARDED]
 > Use this API to fetch user's own profile. 
 <br>
