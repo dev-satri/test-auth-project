@@ -90,6 +90,8 @@ http://localhost:3000/auth/update-user
 ## Product
 - Add Product [GUARDED]
 > Use this API to add product
+<br>
+
 `POST`
 ```
 http://localhost:3000/product/add-product
