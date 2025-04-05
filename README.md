@@ -41,7 +41,7 @@ http://localhost:3000/health
 ![health](health.png)
 
 ## Auth
-- SignUp
+- SignUp [GUARDED]
 > Use this API to signup user
 <br>
 
@@ -52,7 +52,7 @@ http://localhost:3000/auth/signup
 ![SignUp](signup.png)
 
 
-- Login
+- Login [GUARDED]
 > Use this API to login user
 <br>
 
@@ -63,7 +63,7 @@ http://localhost:3000/auth/login
 ![Login](login.png)
 
 
-- User
+- User [GUARDED]
 > Use this API to fetch user's own profile. 
 <br>
 
@@ -76,7 +76,7 @@ Note: As this endpoint has **RouteGuard** you'll need to pass token obtained dur
 ![user](user.png)
 
 
-- Update User
+- Update User [GUARDED]
 > Use this API to update user. 
 <br>
 
@@ -88,14 +88,14 @@ http://localhost:3000/auth/update-user
 ![update-user2](update-user2.png)
 
 ## Product
-- Add Product
+- Add Product [GUARDED]
 > Use this API to add product
 ```
 http://localhost:3000/product/add-product
 ```
 ![add-product](add-product.png)
 
-- Get All Product
+- Get All Product [GUARDED]
 > Use this API to fetch all available products
 
 `GET`
@@ -104,7 +104,7 @@ http://localhost:3000/product/all-product
 ```
 ![all-product](all-product.png)
 
-- Get Product (Single)
+- Get Product (Single) [GUARDED]
 > Use this API to fetch individual product
 <br>
 
@@ -115,7 +115,7 @@ http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
 ![get-individual-product](get-individual-product.png)
 
 
-- Update Product (Single)
+- Update Product (Single) [GUARDED]
 > Use this API to update individual product
 <br>
 
@@ -126,7 +126,7 @@ http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
 ![update-individual-product](update-individual-product.png)
 
 
-- Delete Product (Single)
+- Delete Product (Single) [GUARDED]
 > Use this API to delete individual product
 <br>
 
@@ -139,7 +139,7 @@ http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
 
 ## Upload
 
-- Upload File (Single)
+- Upload File (Single) [GUARDED]
 > Use this API to upload file
 <br>
 
