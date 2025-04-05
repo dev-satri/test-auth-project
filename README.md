@@ -32,14 +32,14 @@ http://localhost:3000/api/
 ```
 ![All Apis](apis.png)
 
-## APIs and Payload
-### Health
+# APIs and Payload
+## Health
 This is a default API to ensure our project is functional
 ```
 http://localhost:3000/health
 ```
 
-### Auth
+## Auth
 - SignUp
 Use this API to signup user
 <br>
@@ -71,6 +71,7 @@ Use this API to fetch user's own profile.
 http://localhost:3000/auth/user
 ```
 Note: As this endpoint has **RouteGuard** you'll need to pass token obtained during login/register as Bearer Token through Header.
+<br>
 ![user](user.png)
 
 
@@ -84,4 +85,52 @@ http://localhost:3000/auth/update-user
 ```
 ![update-user](update-user1.png)
 ![update-user2](update-user2.png)
+
+## Product
+- Add Product
+Use this API to add product
+```
+http://localhost:3000/product/add-product
+```
+![add-product](add-product.png)
+
+- Get All Product
+Use this API to fetch all available products
+```
+http://localhost:3000/product/all-product
+```
+![all-product](all-product.png)
+
+- Get Product (Single)
+Use this API to fetch individual product
+<br>
+
+`GET`
+```
+http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
+```
+![get-individual-product](get-individual-product.png)
+
+
+- Update Product (Single)
+Use this API to update individual product
+<br>
+
+`PUT`
+```
+http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
+```
+![update-individual-product](update-individual-product.png)
+
+
+
+- Delete Product (Single)
+Use this API to delete individual product
+<br>
+
+`DELETE`
+```
+http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
+```
+![delete-product](delete-product.png)
 

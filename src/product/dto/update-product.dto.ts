@@ -6,7 +6,7 @@ import { CreateProductDto } from './create-product.dto';
 export class UpdateProductDto extends IntersectionType(CreateProductDto) {
   @IsOptional()
   @IsString()
-  readonly productTitl: string;
+  readonly productTitle: string;
   @IsOptional()
   @IsString()
   readonly productDesc: string;

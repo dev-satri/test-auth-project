@@ -18,7 +18,7 @@ import { SearchDto } from './dto/keyword-search.dto';
 
 @Controller('product')
 export class ProductController {
-  constructor(private productService: ProductService) {}
+  constructor(private productService: ProductService) { }
 
   @Get('all-product')
   async getAllProduct(): Promise<Product[]> {

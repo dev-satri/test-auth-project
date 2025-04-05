@@ -44,7 +44,7 @@ export class ProductService {
   async search(keyword: string): Promise<any> {
     const results = await this.productModel.find({
       $or: [
-        { productTitl: { $regex: keyword, $options: 'i' } },
+        { productTitle: { $regex: keyword, $options: 'i' } },
         { productDesc: { $regex: keyword, $options: 'i' } },
         { availableStock: { $regex: keyword, $options: 'i' } },
       ],

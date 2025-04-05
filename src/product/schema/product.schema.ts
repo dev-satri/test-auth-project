@@ -6,7 +6,7 @@ import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 })
 export class Product {
   @Prop()
-  productTitl: string;
+  productTitle: string;
 
   @Prop()
   productDesc: string;
