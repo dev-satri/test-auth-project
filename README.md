@@ -76,6 +76,19 @@ Note: As this endpoint has **RouteGuard** you'll need to pass token obtained dur
 ![user](user.png)
 
 
+
+- User [GUARDED]
+> Use this API to fetch all users. 
+<br>
+
+`GET`
+```
+http://localhost:3000/auth/all-user
+```
+![all-user](all-user.png)
+
+
+
 - Update User [GUARDED]
 > Use this API to update user. 
 <br>
