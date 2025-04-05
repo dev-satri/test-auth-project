@@ -41,7 +41,7 @@ http://localhost:3000/health
 ![health](health.png)
 
 ## Auth
-- SignUp [GUARDED]
+- SignUp 
 > Use this API to signup user
 <br>
 
@@ -52,7 +52,7 @@ http://localhost:3000/auth/signup
 ![SignUp](signup.png)
 
 
-- Login [GUARDED]
+- Login
 > Use this API to login user
 <br>
 
@@ -95,7 +95,7 @@ http://localhost:3000/product/add-product
 ```
 ![add-product](add-product.png)
 
-- Get All Product [GUARDED]
+- Get All Product
 > Use this API to fetch all available products
 
 `GET`
