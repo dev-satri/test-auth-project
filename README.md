@@ -38,6 +38,7 @@ http://localhost:3000/api/
 ```
 http://localhost:3000/health
 ```
+![health](health.png)
 
 ## Auth
 - SignUp
@@ -135,3 +136,20 @@ http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
 ```
 ![delete-product](delete-product.png)
 
+
+## Upload
+
+- Upload File (Single)
+> Use this API to upload file
+<br>
+
+`POST`
+```
+http://localhost:3000/upload
+```
+![upload](upload.png)
+Inorder to view the uploaded image open your browser and load file in provided format
+```
+http://localhost:3000/upload/<FILE_NAME>
+```
+![view](view.png)
