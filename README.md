@@ -42,8 +42,6 @@ http://localhost:3000/health
 ## Auth
 - SignUp
 > Use this API to signup user
-<br>
-
 `POST`
 ```
 http://localhost:3000/auth/signup
@@ -53,8 +51,6 @@ http://localhost:3000/auth/signup
 
 - Login
 > Use this API to login user
-<br>
-
 `POST`
 ```
 http://localhost:3000/auth/login
@@ -64,8 +60,6 @@ http://localhost:3000/auth/login
 
 - User
 > Use this API to fetch user's own profile. 
-<br>
-
 `GET`
 ```
 http://localhost:3000/auth/user
@@ -77,8 +71,6 @@ Note: As this endpoint has **RouteGuard** you'll need to pass token obtained dur
 
 - Update User
 > Use this API to update user. 
-<br>
-
 `PUT`
 ```
 http://localhost:3000/auth/update-user
@@ -103,8 +95,6 @@ http://localhost:3000/product/all-product
 
 - Get Product (Single)
 > Use this API to fetch individual product
-<br>
-
 `GET`
 ```
 http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
@@ -114,8 +104,6 @@ http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
 
 - Update Product (Single)
 > Use this API to update individual product
-<br>
-
 `PUT`
 ```
 http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
@@ -123,11 +111,8 @@ http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
 ![update-individual-product](update-individual-product.png)
 
 
-
 - Delete Product (Single)
 > Use this API to delete individual product
-<br>
-
 `DELETE`
 ```
 http://localhost:3000/product/<PLACE_PRODUCT_ID_HERE>
